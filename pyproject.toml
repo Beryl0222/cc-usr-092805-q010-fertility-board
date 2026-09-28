@@ -1,0 +1,8 @@
+[project]
+name = "health-ops"
+version = "1.0.0"
+requires-python = ">=3.11"
+description = "健康服务流程平台"
+
+[project.scripts]
+health-ops = "health_ops.cli:main"
